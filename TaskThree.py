@@ -17,4 +17,3 @@ print(decimal_value(numbers_list,temp_list))
 # def find_max(list):
     
 # def find_min(list):
-    

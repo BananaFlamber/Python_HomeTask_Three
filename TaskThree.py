@@ -1,3 +1,4 @@
+print("\033c")
 
 numbers_list = [0.39,1.2,0.9,12,4.1]
 print(numbers_list)
@@ -12,8 +13,7 @@ def decimal_value (list1, list2):
 
 print(decimal_value(numbers_list,temp_list))
 
-# print(temp_list)
+def find_difference(list):
+    return (max(list)-min(list))
 
-# def find_max(list):
-    
-# def find_min(list):
+print(find_difference(temp_list))
